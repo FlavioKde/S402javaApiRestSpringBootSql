@@ -45,7 +45,7 @@ public class Fruit {
 
 ### 🔧 API Endpoints
 
-🟢 POST → /fruita/add
+🟢 POST → /fruits/add
 Adds a new fruit to the database.
 
 ```
@@ -57,7 +57,7 @@ json
 
 ```
 
-🟡 PUT → /fruita/update
+🟡 PUT → /fruits/update
 Updates an existing fruit based on its ID.
 
 ```
@@ -70,23 +70,23 @@ json
 
 ```
 
-🔴 DELETE → /fruita/delete/{id}
+🔴 DELETE → /fruits/delete/{id}
 Deletes a fruit by its ID.
 ```
 
-Example: /fruita/delete/2
+Example: /fruits/delete/2
 
 ```
 
-🔍 GET → /fruita/getOne/{id}
+🔍 GET → /fruits/getOne/{id}
 Returns a single fruit by its ID.
 
 ```
-Example: /fruita/getOne/5
+Example: /fruits/getOne/5
 
 ```
 
-📄 GET → /fruita/getAll
+📄 GET → /fruits/getAll
 Returns a list of all fruits stored.
 
 
